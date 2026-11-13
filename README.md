@@ -20,7 +20,7 @@ This builds the project:
 make
 ```
 
-This clears what has compiled:
+This clears everything:
 
 ```bash
 make clean
