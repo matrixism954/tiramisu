@@ -32,7 +32,7 @@ void stop_service(char* service) {
   char path[1024];
   char command[2048];
 
-  snprintf(path, sizeof(path), "%s/service/%s", PREFIX, service);
+  snprintf(path, sizeof(path), "%s/services/%s", PREFIX, service);
   snprintf(command, sizeof(command), "bash -c 'source %s; stop_service_%s'", path, service);
 
   system(command);

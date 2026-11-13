@@ -10,5 +10,7 @@
 
 int main(void) {
   start_service("notepad"); // Test.
+  sleep(5);
+  stop_service("notepad");
   return 0;
 }

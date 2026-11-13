@@ -6,6 +6,7 @@ OBJ = $(SRC:src/%.c=build/%.o)
 
 PREFIX = /usr/local
 BINDIR = $(PREFIX)/bin
+DESTDIR = /usr/local
 
 TARGET = build/tiramisu
 
@@ -22,6 +23,7 @@ build/%.o: src/%.c
 
 install: $(TARGET)
 	install -Dm755 $(TARGET) $(DESTDIR)$(BINDIR)/tiramisu
+	mkdir -p $(DESTDIR)/etc/tiramisu/services
 
 uninstall:
 	rm -f $(DESTDIR)$(BINDIR)/tiramisu
