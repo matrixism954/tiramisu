@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+
 #include "../include/service.h"
 
 #include <stdio.h>
@@ -7,6 +9,6 @@
 #include <unistd.h>
 
 int main(void) {
-  start_service("notepad");
+  start_service("notepad"); // Test.
   return 0;
 }
