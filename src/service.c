@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GPL-2.0-only */
+
 #include "../include/service.h"
 #include "../include/definitions.h"
 
