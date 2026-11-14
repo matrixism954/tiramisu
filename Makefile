@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -std=c11 -Wextra -Wpedantic -Wextra -O2
 
-SRC = src/main.c src/service.c
+SRC = src/main.c src/service.c src/print.c
 OBJ = $(SRC:src/%.c=build/%.o)
 
 PREFIX = /usr/local

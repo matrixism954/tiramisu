@@ -8,6 +8,8 @@
 #include <unistd.h>
 #include <string.h>
 
+#include <fcntl.h>
+
 void start_service(char* service) {
   char path[1024];
   char command[2048];
