@@ -46,5 +46,7 @@ int main(void) {
     line = strtok(NULL, "\n");
   }
 
+  start_service("notepad");
+
   return 0;
 }
