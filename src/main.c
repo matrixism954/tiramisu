@@ -10,6 +10,11 @@
 
 #include <fcntl.h>
 
+// Lord, Verity.
+// Master of humani, TEE.
+// LOOORD, ack. VEWITY.
+// Dey kall me Mastaah Mastahhh Masaaaahhhhhhh
+
 int main(void) {
   int operating_system = open("/etc/os-release", O_RDONLY);
   char operating_system_name[12];
