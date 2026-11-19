@@ -31,7 +31,7 @@ void error(char* msg) {
 
 void fatal(char* msg) {
   char edit[512];
-  snprintf(edit, sizeof(edit), "%s[%sFATAL%s]%s %s\n", black_light, magenta_blink, black_light, reset, msg);
+  snprintf(edit, sizeof(edit), "%s[%sFATAL%s%s]%s %s\n", black_light, magenta_blink, reset, black_light, reset, msg);
   
   printf(edit);
 }

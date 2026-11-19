@@ -5,6 +5,7 @@
 
 int start_service(char* service);
 int stop_service(char* service);
+int service_status(char* service);
 
 void system_startup_start_service(void);
 void system_shutdown_stop_service(void);
